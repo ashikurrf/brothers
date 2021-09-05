@@ -1828,9 +1828,13 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   padding: 0px;
 }
 
-.cart .order-table .table tbody tr .image a img {
-  height: 80px;
-  width: 80px;
+.cart .order-table .table tbody tr .image {
+  width: 8%;
+}
+
+.cart .order-table .table tbody tr .image img {
+  height: 60px;
+  width: 60px;
 }
 
 .cart .order-table .table tbody tr .product {
@@ -1849,13 +1853,23 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 
 .cart .order-table .table tbody tr .quantity {
   padding: 30px 0px;
+  width: 17%;
 }
 
-.cart .order-table .table tbody tr .quantity span {
+.cart .order-table .table tbody tr .quantity ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cart .order-table .table tbody tr .quantity ul li {
+  display: inline-block;
+}
+
+.cart .order-table .table tbody tr .quantity ul li span {
   cursor: pointer;
 }
 
-.cart .order-table .table tbody tr .quantity .minus, .cart .order-table .table tbody tr .quantity .plus {
+.cart .order-table .table tbody tr .quantity ul li .minus, .cart .order-table .table tbody tr .quantity ul li .plus {
   background: #f2f2f2;
   border-radius: 4px;
   padding: 8px 5px 8px 5px;
@@ -1864,7 +1878,7 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   text-align: center;
 }
 
-.cart .order-table .table tbody tr .quantity input {
+.cart .order-table .table tbody tr .quantity ul li input {
   height: 42px;
   width: 30px;
   text-align: center;
@@ -1899,19 +1913,19 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   .cart .order-table .table tbody tr .quantity {
     padding: 12px 0px;
   }
-  .cart .order-table .table tbody tr .quantity .minus {
+  .cart .order-table .table tbody tr .quantity ul li .minus {
     padding: 5px 3px;
   }
-  .cart .order-table .table tbody tr .quantity .minus .fa {
+  .cart .order-table .table tbody tr .quantity ul li .minus .fa {
     font-size: 10px;
   }
-  .cart .order-table .table tbody tr .quantity input {
+  .cart .order-table .table tbody tr .quantity ul li input {
     font-size: 15px;
   }
-  .cart .order-table .table tbody tr .quantity .plus {
+  .cart .order-table .table tbody tr .quantity ul li .plus {
     padding: 5px 3px;
   }
-  .cart .order-table .table tbody tr .quantity .plus .fa {
+  .cart .order-table .table tbody tr .quantity ul li .plus .fa {
     font-size: 10px;
   }
   .cart .order-table .table tbody tr .subtotal {
@@ -1936,21 +1950,21 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   .cart .order-table .table tbody tr .quantity {
     padding: 12px 0px;
   }
-  .cart .order-table .table tbody tr .quantity .minus {
+  .cart .order-table .table tbody tr .quantity ul li .minus {
     padding: 5px 3px;
   }
-  .cart .order-table .table tbody tr .quantity .minus .fa {
+  .cart .order-table .table tbody tr .quantity ul li .minus .fa {
     font-size: 8px;
   }
-  .cart .order-table .table tbody tr .quantity input {
+  .cart .order-table .table tbody tr .quantity ul li input {
     font-size: 12px;
     width: 20px;
     height: 35px;
   }
-  .cart .order-table .table tbody tr .quantity .plus {
+  .cart .order-table .table tbody tr .quantity ul li .plus {
     padding: 5px 3px;
   }
-  .cart .order-table .table tbody tr .quantity .plus .fa {
+  .cart .order-table .table tbody tr .quantity ul li .plus .fa {
     font-size: 8px;
   }
   .cart .order-table .table tbody tr .subtotal {
@@ -2150,6 +2164,10 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
 
 .checkout .order-table .table tbody tr {
   padding: 0px;
+}
+
+.checkout .order-table .table tbody tr .image {
+  width: 10%;
 }
 
 .checkout .order-table .table tbody tr .image a img {

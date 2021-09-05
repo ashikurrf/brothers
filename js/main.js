@@ -90,5 +90,7 @@ $(".owl-carousel").owlCarousel({
 //single product page image change//
 function changeImage(a) {
     document.getElementById("img").src=a;
+    document.getElementById("img-2").src=a;
+    document.getElementById("img-3").src=a;
 }
 // END//

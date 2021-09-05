@@ -6,7 +6,7 @@ $black:#000000;
 *{
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif; 
-    // font-family: 'Poppins', sans-serif;
+    // font-family: 'Poppins ', sans-serif;
 }
 body{
     .wrapper{
@@ -2018,15 +2018,13 @@ body{
                 tr{
                     padding: 0px;
                     .image{
+                       
+                            width: 8%;
+                           img{
+                              height:60px;
+                              width: 60px;
+                           }
                         
-                        a{
-                          
-                            img{
-                               
-                                height: 80px;
-                                width: 80px;
-                            }
-                        }
                     }
                     .product{
                         padding: 30px 0px;
@@ -2043,25 +2041,33 @@ body{
                     }
                     .quantity{
                         padding: 30px 0px;
-                      
+                        width: 17%;
+                    ul{
+                        margin: 0px;
+                        padding: 0px;
+                        li{
+                         display: inline-block;
+                           
                         span {cursor:pointer; }
-                            .minus, .plus{
-                                background:#f2f2f2;
-                                border-radius:4px;
-                                padding:8px 5px 8px 5px;
-                                border:1px solid #ddd;
-                               
-                                vertical-align: middle;
-                                text-align: center;
-                            }
-                            input{
-                                height:42px;
-                                width: 30px;
-                                text-align: center;
-                                border: none;
-                                font-size: 26px;
-                                display:inline-block;
-                              vertical-align: middle;
+                        .minus, .plus{
+                            background:#f2f2f2;
+                            border-radius:4px;
+                            padding:8px 5px 8px 5px;
+                            border:1px solid #ddd;
+                           
+                            vertical-align: middle;
+                            text-align: center;
+                        }
+                        input{
+                            height:42px;
+                            width: 30px;
+                            text-align: center;
+                            border: none;
+                            font-size: 26px;
+                            display:inline-block;
+                          vertical-align: middle;
+                }
+                        }
                     }
                         
                        
@@ -2104,21 +2110,26 @@ body{
                       }
                       .quantity{
                           padding: 12px 0px;
-                          .minus{
-                              padding:5px 3px;
-                              .fa{
-                                  font-size: 10px;
-                              }
-                          }
-                          input{
-                              font-size: 15px;
-                          }
-                          .plus{
-                              padding:5px 3px;
-                              .fa{
-                                  font-size:10px;
-                              }
-                          }
+                         
+                       ul{
+                           li{
+                            .minus{
+                                padding:5px 3px;
+                                .fa{
+                                    font-size: 10px;
+                                }
+                            }
+                            input{
+                                font-size: 15px;
+                            }
+                            .plus{
+                                padding:5px 3px;
+                                .fa{
+                                    font-size:10px;
+                                }
+                            }
+                           }
+                       }
                       }
                       .subtotal{
                           font-size: 10px;
@@ -2156,22 +2167,26 @@ tbody{
         }
         .quantity{
             padding: 12px 0px;
-            .minus{
-                padding:5px 3px;
-                .fa{
-                    font-size: 8px;
-                }
-            }
-            input{
-                font-size: 12px;
-                width: 20px;
-                height: 35px;
-                
-            }
-            .plus{
-                padding:5px 3px;
-                .fa{
-                    font-size:8px;
+            ul{
+                li{
+                    .minus{
+                        padding:5px 3px;
+                        .fa{
+                            font-size: 8px;
+                        }
+                    }
+                    input{
+                        font-size: 12px;
+                        width: 20px;
+                        height: 35px;
+                        
+                    }
+                    .plus{
+                        padding:5px 3px;
+                        .fa{
+                            font-size:8px;
+                        }
+                    }
                 }
             }
         }
@@ -2401,7 +2416,7 @@ tr{
                 tr{
                     padding: 0px;
                     .image{
-                        
+                        width: 10%;
                         a{
                           
                             img{
