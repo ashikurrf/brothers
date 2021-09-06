@@ -2113,6 +2113,11 @@ body{
                          
                        ul{
                            li{
+                               .form-group{
+                                   .form-control{
+                                           font-size:10px;
+                                   }
+                               }
                             .minus{
                                 padding:5px 3px;
                                 .fa{
@@ -2169,6 +2174,11 @@ tbody{
             padding: 12px 0px;
             ul{
                 li{
+                    .option{
+                        .form-control{
+                               padding:0px;
+                        }
+                    }
                     .minus{
                         padding:5px 3px;
                         .fa{

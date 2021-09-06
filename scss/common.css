@@ -1913,6 +1913,9 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   .cart .order-table .table tbody tr .quantity {
     padding: 12px 0px;
   }
+  .cart .order-table .table tbody tr .quantity ul li .form-group .form-control {
+    font-size: 10px;
+  }
   .cart .order-table .table tbody tr .quantity ul li .minus {
     padding: 5px 3px;
   }
@@ -1949,6 +1952,9 @@ body .wrapper header .header-bottom .navbar .collapse .navbar-nav .nav-item .nav
   }
   .cart .order-table .table tbody tr .quantity {
     padding: 12px 0px;
+  }
+  .cart .order-table .table tbody tr .quantity ul li .option .form-control {
+    padding: 0px;
   }
   .cart .order-table .table tbody tr .quantity ul li .minus {
     padding: 5px 3px;
